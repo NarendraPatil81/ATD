@@ -1,0 +1,90 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+	background-image: url('bg3.gif');
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+* {
+  margin: 0;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.content {
+	margin-top: 120px;
+	position: absolute;
+  right: 150px;  
+  padding: 20px 30px;
+  width: 500px;
+	opacity:1;
+	//background-color: lightskyblue;
+	background-color: rgba(134,171,169,249); 
+  box-shadow: 0 0 15px black;
+}
+
+/* Full-width input fields */
+input[type=text] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+input[type=research] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=research]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+.header {
+  background-color: #327a81;
+  margin-top: 150px;
+position: absolute;
+  right: 150px;  
+  padding: 20px 30px;
+  width: 500px;
+  color: white;
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+p {
+  background-color: #f5f1f0;
+  margin-top: 250px;
+position: absolute;
+  right: 150px;  
+  padding: 20px 30px;
+  width: 500px;
+  color: black;
+  word-wrap: break-word; 
+  font-size: 1.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.submit {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.submit:hover {
+  opacity: 1;
+}
